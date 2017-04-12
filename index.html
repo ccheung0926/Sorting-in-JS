@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="selectionSort.js"></script>
+</head>
+<body>
+	<div id="input">input: </div>
+	<div id="sort"></div>
+</body>
+<script>
+	// var arr = [44,75,23,43,55,12,64,77,33];
+	var arr = [6,8,0,6,7,4,3,1,5,10];
+	document.getElementById("input").innerHTML += arr;
+	document.getElementById('sort').innerHTML =  selectionSort(arr);	
+</script>
+</html>
