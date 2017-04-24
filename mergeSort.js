@@ -11,7 +11,7 @@ function merge(left, right, arr){
 	// l = left arr index position
 	// r = right arr index position
 	var l = 0;
-	var	r = 0;
+	var r = 0;
 	var i = 0;
 	// var arr = [];
 	while(l < left.length && r < right.length){
